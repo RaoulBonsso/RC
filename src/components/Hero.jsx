@@ -3,12 +3,12 @@ import Spline from "@splinetool/react-spline";
 
 const Hero = () => {
   return (
-    <main className="flex flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
+    <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
       <div
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
-        className="max-w-xl ml-[5%] z-10 mt-10 lg:mt-0"
+        className="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0"
       >
         {/* Tag box with gradient border */}
         <div className="relative w-[95%] sm:w-48 h-10 bg-gradient-to-r from-[#656565] to-[#e99b63] shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-full">
@@ -28,7 +28,7 @@ const Hero = () => {
         <p className="text-base sm:text-lg lg:text-2xl text-gray-600 tracking-wider max-w-[25rem] lg:max-w-[30rem]">
           Au cas où tu ne l'aurais pas compris, c'est toi, oui toi Chloé. 
           Je suis malgré moi tombé amoureux de toi. Je sais que tu n'es pas prête pour tout ça, 
-          mais je veux faire ma vie avec toi. Je pense à toi constamment et je veux être avec toi .
+          mais je veux faire ma vie avec toi. Je pense à toi constamment et je veux être avec toi.
         </p>
 
         {/* Buttons */}
@@ -49,17 +49,15 @@ const Hero = () => {
       </div>
 
       {/* 3D Robot */}
-      <div className="relative w-full lg:w-1/2 h-1/2 lg:h-full flex justify-center items-center">
-        <Spline
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="300"
-          data-aos-offset="0"
-          data-aos-duration="3000"
-          className="h-full w-full"
-          scene="https://prod.spline.design/VhZEvtwW6YS0-p6K/scene.splinecode"
-        />
-      </div>
+      <Spline
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        data-aos-duration="3000"
+        className="absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full"
+        scene="https://prod.spline.design/VhZEvtwW6YS0-p6K/scene.splinecode"
+      />
     </main>
   );
 };
