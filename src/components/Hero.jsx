@@ -1,5 +1,5 @@
-import "boxicons/css/boxicons.min.css";
 import Spline from "@splinetool/react-spline";
+import "boxicons/css/boxicons.min.css";
 
 const Hero = () => {
   return (
@@ -19,16 +19,16 @@ const Hero = () => {
 
         {/* Main Heading */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wider my-8">
-          LA PLUS BELLE 
+          BONNE ANNÉE 2026
           <br />
-          DES FEMMES
+          
         </h1>
 
         {/* Description */}
         <p className="text-base sm:text-lg lg:text-2xl text-gray-600 tracking-wider max-w-[25rem] lg:max-w-[30rem]">
-          Au cas où tu ne l'aurais pas compris, c'est toi, oui toi Chloé. 
-          Je suis malgré moi tombé amoureux de toi. Je sais que tu n'es pas prête pour tout ça, 
-          mais je veux faire ma vie avec toi. Je pense à toi constamment et je veux être avec toi.
+        Je tenais à m'excuser pour mon comportement en cette fin d'année. Je n’avais vraiment pas le droit de te traiter de manière désinvolte. Grâce à toi et à ton caractère, j’ai pu remettre mes idées en place.
+Merci d'être là, d'être une si belle personne. Je te promets de toujours te faire confiance et de rester honnête.
+Je te souhaite une merveilleuse année 2026, pleine de joie, et bien sûr, à Maylin aussi. 💖🥹
         </p>
 
         {/* Buttons */}

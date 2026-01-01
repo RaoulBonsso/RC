@@ -16,7 +16,7 @@ const Header = () => {
     <header className="flex justify-between item-center py-4 px-4 lg:px-20">
       <h1 data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500" className="test-3xl md:text-4xl lg:text-5xl m-0 font-semibold">R&C</h1>
+     data-aos-duration="1500" className="test-3xl md:text-4xl lg:text-5xl m-0 font-semibold">Emma 💖 </h1>
 
       {/*Desktop Navigation*/}
 
